@@ -3,6 +3,8 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
+import ContactMe from './pages/contactMe';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   //home page....../home
@@ -10,6 +12,8 @@ function App() {
   //about page....../about
 
   //project page....../project
+
+  //contact me page ......./contact
   return (
 
     <BrowserRouter>
@@ -21,6 +25,7 @@ function App() {
           <Route path="/" element={ <Home/> } />
           <Route path="/about" element={ <About/> } />
           <Route path="/project" element={ <Project/> } />
+          <Route path="/contact"element={ <ContactMe/> } />
 
         </Routes>
 

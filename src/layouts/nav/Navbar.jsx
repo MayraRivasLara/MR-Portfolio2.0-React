@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import '../nav/Navbar.css'
 
 export default function Navbar() {
 
@@ -9,28 +10,28 @@ export default function Navbar() {
       link: "/",
     },
     {
-      title: "Project",
-      link: "/project",
+      title: "Projects",
+      link: "/projects",
     },
     {
       title: "About",
       link: "/about",
     },
     {
-      title: "ContactMe",
+      title: "Contact Me",
       link: "/contact",
     },
   ];
 
   return (
-    <div >
+    <div className = 'nav'>
 
       
 
-      <ul>
+      <ul className = 'list'>
         {navItems.map((item) => {
           return (
-            <li>
+            <li className = 'list-item'>
               <Link to={item.link} >{item.title}</Link>
             </li>
 

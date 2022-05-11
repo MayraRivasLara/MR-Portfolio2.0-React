@@ -1,8 +1,9 @@
 import React from 'react'
+import '../about/about.css';
 
 export default function About() {
   return (
-    <div>About Me
+    <div className='about'>About Me
       My name is Mayra Rivas. I am currently a student at UWA to become a Full-Stack Web Developer.
       I am passionate about helping people to achieve their goals and I have found in web development the
       tools to continue doing that.

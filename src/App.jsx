@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Project from './pages/Project';
-import ContactMe from './pages/contactMe';
+import Home from './components/home/home';
+import About from './components/about/about';
+import Projects from './components/projects/projects';
+import ContactMe from './components/contact/contact-me';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   //about page....../about
 
-  //project page....../project
+  //project page....../projects
 
   //contact me page ......./contact
   return (
@@ -24,7 +24,7 @@ function App() {
 
           <Route path="/" element={ <Home/> } />
           <Route path="/about" element={ <About/> } />
-          <Route path="/project" element={ <Project/> } />
+          <Route path="/projects" element={ <Projects/> } />
           <Route path="/contact"element={ <ContactMe/> } />
 
         </Routes>

@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    flex:1;
+    background-color:wheat;
+    color: teal;
+    justify-content: space-between;
+}
+
+.list {
+    /* text-decoration: none;
+    text-decoration-style: none; */
+    
+}
+
+.list-item {
+    /* color: black;
+    text-decoration: none; */
+    
+}

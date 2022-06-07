@@ -12,16 +12,12 @@ export default function Navbar() {
       link: "/",
     },
     {
-      title: "Projects Gallery",
-      link: "/projects-gallery",
+      title: "About",
+      link: "/about",
     },
     {
       title: "Projects",
       link: "/projects",
-    },
-    {
-      title: "About",
-      link: "/about",
     },
     {
       title: "Contact Me",

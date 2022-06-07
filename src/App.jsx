@@ -5,6 +5,7 @@ import About from './components/about/about';
 import Projects from './components/projects/projects';
 import ContactMe from './components/contact/contact-me';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectsGallery from './components/projectsGallery/projectsGallery';
 
 function App() {
   //home page....../home
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={ <Home/> } />
           <Route path="/about" element={ <About/> } />
           <Route path="/projects" element={ <Projects/> } />
+          <Route path="/projects-gallery" element={ <ProjectsGallery/> } />
           <Route path="/contact"element={ <ContactMe/> } />
 
         </Routes>

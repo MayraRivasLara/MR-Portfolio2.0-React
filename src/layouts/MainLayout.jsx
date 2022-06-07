@@ -1,8 +1,12 @@
-import React from 'react'
-import Navbar from './nav/Navbar'
+import React from 'react';
+import Navbar from './nav/Navbar';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function MainLayout(props) {
   return (
+    
     <div>
         {/* nav */}
         <Navbar/>
@@ -14,5 +18,7 @@ export default function MainLayout(props) {
 
 
     </div>
+
+    
   )
 }

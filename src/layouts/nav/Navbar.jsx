@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import '../nav/Navbar.css'
+import '../nav/Navbar.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Navbar() {
 
@@ -8,6 +10,10 @@ export default function Navbar() {
     {
       title: "Home",
       link: "/",
+    },
+    {
+      title: "Projects Gallery",
+      link: "/projects-gallery",
     },
     {
       title: "Projects",
@@ -24,11 +30,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className = 'nav'>
-
-      
-
-      <ul className = 'list'>
+    
+    <div className='navbar'>
+              
+      <ul>
         {navItems.map((item) => {
           return (
             <li className = 'list-item'>
@@ -39,7 +44,7 @@ export default function Navbar() {
 
         })}
       </ul>
-
+      
     </div>
   )
 }

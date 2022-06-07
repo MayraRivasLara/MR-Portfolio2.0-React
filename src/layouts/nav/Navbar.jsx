@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../nav/Navbar.css';
 
@@ -25,22 +25,48 @@ export default function Navbar() {
     },
   ];
 
+  
+  const [isMobile, setIsMobile] = useState(false);
+  const [showItems, setShowItems] = useState(true);
+  
+  useEffect(() => {
+    const screenWidth = document.body.clientWidth;
+
+    const screenIsMobile = screenWidth < 550;
+
+    setIsMobile(screenIsMobile);
+    if(screenIsMobile) {
+      setShowItems(false);
+    }
+  }, [])
+  
+  function toggleList() {
+    setShowItems(!showItems);
+  }
   return (
     
-    <div className='navbar'>
-              
-      <ul>
+    <nav className="navbar navbar-expand-lg navbar-light ">
+      {isMobile && (
+        <button onClick={toggleList} aria-label="Toggle navigation" className="navbar-toggler" type="button">
+          <span className='navbar-toggler-icon'></span>
+        </button>
+      )}
+      {showItems && (
+        <ul className='navbar-nav mt-md-0'>
         {navItems.map((item) => {
           return (
-            <li className = 'list-item'>
-              <Link to={item.link} >{item.title}</Link>
+            <li className = 'list-item' key={item.link}>
+              <Link className="navList nav-link" to={item.link}>{item.title}</Link>
             </li>
-
           )
-
         })}
       </ul>
-      
-    </div>
+      )}
+    </nav>
   )
 }
+
+
+
+              
+      

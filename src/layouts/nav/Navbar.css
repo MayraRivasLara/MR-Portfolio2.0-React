@@ -1,5 +1,18 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
 .navbar {
-    display:flex;
-   margin: 20px;
+   display:flex;
+   margin: 5px;
+   padding-left: 10px;
+   background-color: rgb(116, 230, 218);
+}
+.list-item {
+    color: black                ;
+    font-weight: bold;
+    font-size: 18px;
+    text-indent: 50px;
+    text-transform: uppercase;
 }
 

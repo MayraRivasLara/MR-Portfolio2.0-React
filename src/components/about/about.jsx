@@ -1,42 +1,43 @@
 import React from 'react'
 import '../about/about.css';
-import Pic from '../../assets/ToastBW.jpg';
+import Pic from '../../assets/aboutMe-Img.jpeg';
 import Award from '../../assets/Logo2.png'
 
 export default function About() {
   return (
-    <div className='about'>
-      <div className='about-left'>
-       <div className="about-card bg">
-         <div className="about-card">
-           <img src= { Pic } alt="tulips" className='about-image' />
-         </div>
-       </div>
-      </div>
-      <div className='about-right'>
-        <h1 className='about-title'>About Me</h1>
-        <p className='about-subtitle'>
-          Un día ¡primero Dios!has de quererme un poquito. Yo levantaré el ranchito en que vivamos los dos.
-          ¿Que más pedir? Con tu amor, mi rancho, un árbol, un perro, y enfrente el cielo y el cerro y el cafetalito en flor...
-          Y entre aroma de saúcos, un zenzontle que cantará y una poza que copiará pajaritos y bejucos.
-        </p>
-        <p className='about-description'>
-          Lo que los pobres queremos, lo que los pobres amamos, eso que tanto adoramos porque es lo que no tenemos... 
-          Con sólo eso, vida mía; con sólo eso: con mi verso, con tu beso, lo demás nos sobraría...
-          Porque no hay nada mejor que un monte, un rancho, un lucero, cuando se tiene un "Te quiero" y huele a sendas en flor...
-        </p>
-        <div className="about-award">
-          <img src= { Award } alt="trees" className="a-award-img" />
-          <div className='about-award-txt'>
-            <h4 className='about-award-title'>International Design Award</h4>
-            <p>
-              Es porque un pajarito de la montaña ha hecho, en el hueco de un árbol, su nido matinal, que el árbol amanece con música en el pecho, como que si tuviera corazón musical.
-              Si el dulce pajarito por entre el hueco asoma, para beber rocío, para beber aroma, el árbol de la sierra me da la sensación de que se le ha salido, cantando, el corazón.
-            </p>
+      <div className='about'>
+        <div className='container'>
+          <div className="row align-items-center my-5">
+
+            <div className="col-lg-6">
+              <div>
+                <img 
+                src= { Pic } 
+                alt="hobbies-pictures" 
+                className='about-image' 
+                />
+              </div>
+            </div>
+
+
+            <div className='pt-4 col-lg-6 align-items-center my-4'>
+              <h5 className='about-title'>I am a Full-Stack Web Developer</h5>
+                <br></br>
+              <p>
+                Hi there! My Name is Mayra. I live in Perth, WA.
+              </p>
+              <p> 
+                I recently graduated from UWA Coding Bootcamp and I can't wait to use all the skills and knowledge I have learnt form the course to bring your ideas to life!
+              </p>
+              <p>
+                I am self motivated, enthusiastic and passionate about learning and helping others to achieve their goals. 
+                I enjoy working in a team environment and finding creative ways to solve problems.
+              </p>
+                             
+            </div>
           </div>
         </div>
+   
       </div>
-     
-    </div>
   )
 }

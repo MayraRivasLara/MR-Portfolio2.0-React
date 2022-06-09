@@ -1,34 +1,38 @@
-.project-card {
-    width: 30%;
-    height: 40vh;
-    margin: 20px 10px;
-    border: 2px solid rgb(188, 188, 188);
-    border-radius: 10px 10px 0px 0px;
-    overflow: hidden;
+.project-title{
+    padding-top: 45px;
 }
 
-.p-browser {
-    height: 20px;
-    background-color: rgb(188, 188, 188);
-    display: flex;
-    align-items: center;
-    position:sticky
+.card-wrapper {
+    padding: 10px;
+    max-width: 380px;
+} 
+
+.card-title {
+    padding-top: 15px;
+}
+
+.card {
+    width: 400px;
+    padding: 3px;
+    border: 3px solid #353535;
+    border-radius: 15px;
+    box-shadow: 0 5px 9px 0 #00000033, 0 8px 22px 0 #00000030;
+}
+
+
+.card-links {
+    text-align: center;
+    text-decoration: none;
+    /* text-decoration-style: solid; */
+    /* text-transform: uppercase; */
+    padding-bottom: 10px;
+}
+
+
+.row {
+    display: inline;
+    padding-bottom: 40px;
+    padding-top: 30px;
     
 }
 
-.p-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 2px;
-    background-color: wheat;
-}
-
-.p-img {
-    width: 100%;
-    transition: all 10s ease;
-}
-
-.project-card:hover .p.p-img {
-    transform: translateY(-100%);
-}

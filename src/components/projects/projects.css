@@ -1,5 +1,13 @@
-.project-title{
-    padding-top: 45px;
+ .projects-page{
+    background-color: rgb(246, 232, 214);
+    height: 124.5vh;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 40px 0px 40px 0px;
+    text-shadow: 5px 5px 5px grey;
 }
 
 .card-wrapper {
@@ -9,30 +17,29 @@
 
 .card-title {
     padding-top: 15px;
-}
+    background-color: rgb(250, 204, 146);
+} 
 
 .card {
-    width: 400px;
-    padding: 3px;
-    border: 3px solid #353535;
-    border-radius: 15px;
-    box-shadow: 0 5px 9px 0 #00000033, 0 8px 22px 0 #00000030;
+    width: 320px;
+    height: 285px;
+    padding: 5px;
+    border: 3px solid grey;
+    border-radius: 6px;
+    background-color: rgb(244, 243, 243);
+    box-shadow: 0 5px 9px 0 grey, 0 8px 22px 0 grey;
 }
 
 
 .card-links {
     text-align: center;
     text-decoration: none;
-    /* text-decoration-style: solid; */
-    /* text-transform: uppercase; */
+    text-transform: lowercase;
     padding-bottom: 10px;
 }
 
 
 .row {
-    display: inline;
-    padding-bottom: 40px;
-    padding-top: 30px;
-    
+    padding-bottom: 150px;
 }
 

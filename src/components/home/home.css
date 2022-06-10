@@ -1,6 +1,6 @@
 .home {
     display: flex;
-    height: 93vh;
+    height: 94vh;
     background-image: url('../../../public/image.png');
 }
 
@@ -53,6 +53,7 @@
     font-size: 40px;
     font-weight: bolder;
 }
+
 .home-description {
     padding-top: 5px;
     font-size: 25px;

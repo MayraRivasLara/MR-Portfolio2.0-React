@@ -1,7 +1,6 @@
 import React from 'react'
 import '../about/about.css';
 import Pic from '../../assets/aboutMe-Img.jpeg';
-import Award from '../../assets/Logo2.png'
 
 export default function About() {
   return (
@@ -20,7 +19,7 @@ export default function About() {
             </div>
 
 
-            <div className='pt-4 col-lg-6 align-items-center my-4'>
+            <div className='paragraph pt-4 col-lg-6 align-items-center my-4'>
               <h5 className='about-title'>I am a Full-Stack Web Developer</h5>
                 <br></br>
               <p>

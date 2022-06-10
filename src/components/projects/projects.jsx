@@ -9,7 +9,7 @@ export default function Projects({img, link, title}) {
  
   return (
     <div className="projects-page">
-    <><h1>Projects</h1>
+    <><h1 className="page-title">Projects</h1>
     <div className='container justify-content d-flex' id='project-card'>
       <div className="row">
         {projectList.map((data) => {

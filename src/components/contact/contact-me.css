@@ -5,6 +5,11 @@
 
 }
 
+
+.form-control {
+    border: grey solid 1px;
+}
+
 .contact-title {
     text-align: center;
     color: rgb(88, 88, 88);
@@ -15,7 +20,8 @@
 
 button {
     background-color: rgb(88, 88, 88);
-    color:rgb(116, 230, 218);
+    padding-top: 10px;
+    color:rgb(116, 230, 218);    
 }
 
 .email {
@@ -29,4 +35,25 @@ button {
     font-size: larger;
     font-weight: bold;
     padding-bottom: 10px;
+}
+.icons {
+    text-align: center;
+}
+
+.icons:hover {
+    color:yellow;
+    text-decoration: none;
+}
+
+.response {
+    text-align: center;
+    color: teal;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#message {
+    margin-bottom: 30px;
 }

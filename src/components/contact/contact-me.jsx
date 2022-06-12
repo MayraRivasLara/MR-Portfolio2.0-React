@@ -39,38 +39,40 @@ function ContactMe(e) {
           <form ref={form} onSubmit={sendEmail}>
             
             <div className='row'>
-              <div className='col-md-6 mb-3'>
-                <input type='text' className='form-control' placeholder='Name' name='from_name' autoFocus style={{height:'40px'}} required/>
-              </div>
-                       
-            
-              <div className='col-md-6 mb-3'>
-                <input type='email' className='form-control' placeholder='Email Address' name='from_email' 
+              <div className='col-md-6'>
+                <input type='text' className='form-control' placeholder='Name' name='from_name' autoFocus 
                 style={{
-                  height:'40px'
+                  height:'50px'
                   }} 
                   required/>
               </div>
-            </div>
+                       
             
-            
-            <textarea type='text' className='form-control' id='message' rows='8' placeholder='Your message' name='message' 
-              style={{
-              padding: "10px"
-              }} 
-              required >  
-            </textarea>
+              <div className='col-md-6'>
+                <input type='email' className='form-control' placeholder='Email Address' name='from_email' 
+                style={{
+                  height:'50px'
+                  }} 
+                  required/>
+              </div>
+                                    
+              <textarea type='text' className='form-control' id='message' rows='8' placeholder='Your message' name='message' 
+                style={{
+                  padding: "10px"
+                }} 
+                required >  
+              </textarea>
             
             
             <div className='row'>
-              <div className='col-xs-12 col-md-12 form-group'> 
+              <div className='col-xs-12 col-md-12'> 
                 <button className='btn-lg rounded-3' type='submit'>Send</button>
                   <p className='response'>
                     {sent && 'Thank you for your email, I will get back to you as soon as I can!'}
                   </p>
               </div>
             </div>
-
+           </div>
           </form>
       </div>
     </div>

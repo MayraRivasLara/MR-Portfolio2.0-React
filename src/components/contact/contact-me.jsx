@@ -3,6 +3,7 @@ import '../contact/contact-me.css';
 import Cv from '../contact/MR-CV2022.pdf';
 import { FaFilePdf, FaGithub } from "react-icons/fa";
 import { SiLinkedin } from "react-icons/si";
+import { VscTwitter } from "react-icons/vsc";
 import emailjs from '@emailjs/browser';
 
 function ContactMe(e) {
@@ -32,6 +33,7 @@ function ContactMe(e) {
             <a href={Cv} download><FaFilePdf id='cv' size='3.2rem' color='#313233'/></a>
             <a href='https://github.com/MayraRivasLara'><FaGithub id='git' size='3.2rem' color='#313233'/></a>
             <a href='https://www.linkedin.com/in/mayra-rivas-lara-696032226/'><SiLinkedin id='linkedIn' size='3.2rem' color='#313233' /></a>
+            <a href='https://twitter.com/MayraRivasLara'><VscTwitter id='linkedIn' size='3.2rem' color='#313233'/></a>
           </p>
 
 

@@ -20,6 +20,7 @@ export default function About() {
 
 
             <div className='paragraph pt-4 col-lg-6 align-items-center my-4'>
+              <h1 className='about-title1'>About Me</h1>
               <h5 className='about-title'>I am a Full-Stack Web Developer</h5>
                 <br></br>
               <p>

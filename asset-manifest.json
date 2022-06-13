@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MR-Portfolio2.0-React/static/css/main.9d563fc8.css",
+    "main.js": "/MR-Portfolio2.0-React/static/js/main.0dcdff76.js",
+    "static/js/787.c0c2ae24.chunk.js": "/MR-Portfolio2.0-React/static/js/787.c0c2ae24.chunk.js",
+    "static/media/aboutMe-Img.jpeg": "/MR-Portfolio2.0-React/static/media/aboutMe-Img.38dcce72490e0077b3c2.jpeg",
+    "static/media/MR-CV2022.pdf": "/MR-Portfolio2.0-React/static/media/MR-CV2022.db366af62e3b3032a955.pdf",
+    "static/media/ph1.jpg": "/MR-Portfolio2.0-React/static/media/ph1.07b6c7157ada88096927.jpg",
+    "static/media/image.png": "/MR-Portfolio2.0-React/static/media/image.91586e6ef6b533717498.png",
+    "index.html": "/MR-Portfolio2.0-React/index.html",
+    "main.9d563fc8.css.map": "/MR-Portfolio2.0-React/static/css/main.9d563fc8.css.map",
+    "main.0dcdff76.js.map": "/MR-Portfolio2.0-React/static/js/main.0dcdff76.js.map",
+    "787.c0c2ae24.chunk.js.map": "/MR-Portfolio2.0-React/static/js/787.c0c2ae24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d563fc8.css",
+    "static/js/main.0dcdff76.js"
+  ]
+}

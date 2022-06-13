@@ -46,6 +46,7 @@ export default function Navbar() {
   return (
     
     <nav className="navbar navbar-expand-lg navbar-light ">
+      <h1 className='navname'>Mayra Rivas Lara</h1>
       {isMobile && (
         <button onClick={toggleList} aria-label="Toggle navigation" className="navbar-toggler" type="button">
           <span className='navbar-toggler-icon'></span>

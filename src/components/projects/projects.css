@@ -43,3 +43,24 @@
     padding-bottom: 150px;
 }
 
+@media screen and (max-width: 992px) {
+    .card-wrapper {
+        background-color: rgb(246, 232, 214);
+    }
+    .row {
+        padding-bottom: 25px;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .card-wrapper {
+        background-color: rgb(246, 232, 214);
+    }
+    .row {
+        padding-bottom: 25px;
+    }
+}
+    
+    
+	
+

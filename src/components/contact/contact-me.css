@@ -19,8 +19,8 @@
 button {
     background-color: rgb(88, 88, 88);
     padding-top: 10px;
-    color:rgb(116, 230, 218);    
-    width: 1304px;
+    color:rgb(116, 230, 218);
+    width: 359px;
     
     
 }
@@ -40,11 +40,6 @@ button {
 .icons {
     text-align: center;
     margin-bottom: 40px;
-}
-
-.icons:hover {
-    color:yellow;
-    text-decoration: none;
 }
 
 .response {

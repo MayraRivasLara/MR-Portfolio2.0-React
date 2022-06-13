@@ -32,3 +32,34 @@ h5 {
     font-size: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 992px) {
+    .about {
+        height: 138.5vh;
+    }
+
+    .about-image {
+        align-items: center;
+        max-width: 80%;
+        max-height: 80%;
+        
+    }
+}
+    
+    
+	
+@media screen and (max-width: 768px) {
+    .about {
+        height: 138.5vh;
+    }
+
+    .about-image {
+        align-items: center;
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+     
+    
+    

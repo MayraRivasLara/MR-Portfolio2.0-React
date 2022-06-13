@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd5df05e.css",
+    "main.js": "/static/js/main.b96f052a.js",
+    "static/js/787.1d45fbad.chunk.js": "/static/js/787.1d45fbad.chunk.js",
+    "static/media/aboutMe-Img.jpeg": "/static/media/aboutMe-Img.38dcce72490e0077b3c2.jpeg",
+    "static/media/MR-CV2022.pdf": "/static/media/MR-CV2022.db366af62e3b3032a955.pdf",
+    "static/media/ph1.jpg": "/static/media/ph1.07b6c7157ada88096927.jpg",
+    "static/media/image.png": "/static/media/image.91586e6ef6b533717498.png",
+    "index.html": "/index.html",
+    "main.bd5df05e.css.map": "/static/css/main.bd5df05e.css.map",
+    "main.b96f052a.js.map": "/static/js/main.b96f052a.js.map",
+    "787.1d45fbad.chunk.js.map": "/static/js/787.1d45fbad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd5df05e.css",
+    "static/js/main.b96f052a.js"
+  ]
+}

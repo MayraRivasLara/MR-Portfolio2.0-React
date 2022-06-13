@@ -6,24 +6,10 @@ This Portfolio was created using React.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![homeImg](https://user-images.githubusercontent.com/94599271/173286503-eecfc390-f230-4313-a4e0-ba6ab7a5076c.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![aboutImg](https://user-images.githubusercontent.com/94599271/173286520-12ea7053-a96b-4acb-a5be-c950a5f3bb96.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![projectsImg](https://user-images.githubusercontent.com/94599271/173286532-289cc98e-b02e-40ea-bac9-8805dd09b7a3.png)
 
-
-## 
-
-
-
-
-
-
-
-
-
-
-
+![contactImg](https://user-images.githubusercontent.com/94599271/173286527-921db50b-8206-4c22-95a9-773620ba2857.png)

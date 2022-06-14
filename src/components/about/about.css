@@ -34,7 +34,7 @@ h5 {
 
 @media screen and (max-width: 992px) {
     .about {
-        height: 138.5vh;
+        background-color: white;
     }
 
     .about-image {
@@ -49,7 +49,7 @@ h5 {
 	
 @media screen and (max-width: 768px) {
     .about {
-        height: 138.5vh;
+        background-color: white;
     }
 
     .about-image {

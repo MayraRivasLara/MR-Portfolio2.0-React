@@ -2,7 +2,7 @@
 
 ## Description
 
-This Application / Portfolio was created using React. It contains information about me, my projects and a contact with links to a some of my social platforms.
+This Application / Portfolio was created using React JS. It contains information about me, my projects and a contact with links to a some of my social platforms.
 
 ## Link
 
@@ -22,8 +22,11 @@ https://mayrarivaslara.github.io/MR-Portfolio2.0-React/#/
 - React JS
 - Bootstrap 
 - Email JS
-- JavaScript 
+- JavaScript
+- React PDF
 - React Icons
+- React Bootstrap
+- Gh pages
 
 ## Installation 
 

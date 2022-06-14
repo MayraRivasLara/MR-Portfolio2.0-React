@@ -16,6 +16,7 @@
 }
 
 @media screen and (max-width: 992px) {
+    
     #home-photo {
         width: 80%;
         height: 80%;
@@ -25,13 +26,16 @@
         padding-top: 0px;
     }
     .home {
-        height: 100%;
+        background-color: white;
     }
 
     
 }
 	
 @media screen and (max-width: 768px) {
+    .home {
+        background-color: white;
+    }
     #home-photo {
         max-width: 70%;
         max-height: 70%;

@@ -20,9 +20,8 @@ button {
     background-color: rgb(88, 88, 88);
     padding-top: 10px;
     color:rgb(116, 230, 218);
-    width: 359px;
-    
-    
+    width: 100px;
+
 }
 
 .email {
@@ -54,4 +53,22 @@ button {
 #message {
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .contact-page {
+        background-color: white;
+    }
+    .row {
+        padding-bottom: 25px;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .contact-page {
+        background-color: white;
+    }
+    .row {
+        padding-bottom: 25px;
+    }
 }
